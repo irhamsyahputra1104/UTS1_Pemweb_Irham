@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            width: 1000px;
+            height: 100%;
+            margin: auto;
+            max-width: 1000px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            
+          }
+         label{
+            font-weight:bold;
+            
+            
+        }
+
+
+        .form-container{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            border:2px;
+            padding: 10px;
+            width: 1000px;
+            margin: 10px auto;
+          }
+        
+          .border{
+            border-radius: 5px;
+          }
+          .navbar{
+            display: flex;
+            margin-left: 650px;
+            list-style: none;
+            
+          }
+        .nama{
+            display: inline-block;
+            width: 190px;
+            height: 10px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="form-container">
+        <fieldset>
+            <nav>
+                <ul class="navbar">
+                    <li ><a href="">Home</a> ></li>
+                    <li><a href="">Admin</a> ></li>
+                    <li>Kelola Masjid</li>
+                    </ul>
+            </nav>
+        <form method="post" action="">
+        <div class="form-container">
+        <label for="mesjid" class="nama">Nama Mesjid :</label>
+            <input type="text" id="" >
+        </div>
+        <br>
+        <div class="form-container">
+            <label for="lec" class="nama">Kecamatan :</label> 
+            <select name="kecamatan" id=""> 
+                <option value="Keji">Keji</option>
+            </select> 
+            <label for="kel" class="nama">Kelurahan :</label>
+            <select name="kelurahan" id="">Keji
+                <option value="Kukusan">Kukusan</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-container">
+            <label for="Deskripsi" class="nama">Deskripsi Fasilitas :</label>
+                <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div>
+        <div class="form-container">
+            <label for="" class="nama">Nama Pengurus DKM :</label>
+            <input type="text">
+        </div>
+        <div class="form-container">
+            <label for="" class="nama">No HP/Telpon :</label>
+            <input type="text">
+        </div>
+        <div class="form-container">
+            <label for="" class="nama">Email :</label>
+            <input type="text">
+        </div>
+        <div class="form-container">
+            <label for="" class="nama">Alamat Web :</label>
+            <input type="text">
+        </div>
+        <div class="form-container">
+            <label for="" class="nama">Alamat Lengkap :</label>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div><div class="form-container">
+            <label for="" class="nama">Latitude,Longitude :</label>
+            <input type="text">
+        </div>
+        <br>
+        <button class="border">Simpan</button>
+        <button class="border">Update</button>
+        <button class="border">Hapus</button>
+    </fieldset>
+</body>
+</html>
